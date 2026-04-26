@@ -226,6 +226,3 @@ The application is designed to:
 * Handle failures gracefully
 * Recover automatically
 * Maintain operational continuity
-
-```
-
