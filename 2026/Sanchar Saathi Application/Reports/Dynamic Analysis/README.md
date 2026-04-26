@@ -1,7 +1,7 @@
 # 📊 Runtime Behavior Analysis (Log/Dumpsys Scenarios)
 
 This section documents application behavior under three different runtime conditions based on collected logs.
-I've Perfomed activites in 3 different scenarios to test how the Application works in differnt scenarios "Hers what I've found".
+I've Perfomed activites in 3 different scenarios to test how the Application works in differnt scenarios "Heres what I've found".
 
 ---
 
