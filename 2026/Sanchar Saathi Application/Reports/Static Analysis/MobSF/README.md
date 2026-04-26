@@ -29,8 +29,8 @@ The objective of this analysis is to identify vulnerabilities, insecure configur
 
 📑 **Detailed Analysis Files**
 
-- 🔍 [Complete Static Analysis Report](complete static analysis.pdf)  
-- 📊 [MobSF Security Scorecard](MobSF Security Scorecard.pdf)  
+- 🔍 [Complete Static Analysis Report](complete-static-analysis.pdf)  
+- 📊 [MobSF Security Scorecard](MobSF-Security-Scorecard.pdf)  
 - 📋 [Full Technical Report](sanchar-saathi-mobsf-report.pdf)  
 
 👉 The application falls under **low-risk category**, but multiple medium-level issues were identified that could impact security and privacy.
