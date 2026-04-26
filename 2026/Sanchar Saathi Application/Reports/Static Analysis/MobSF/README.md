@@ -24,10 +24,14 @@ The objective of this analysis is to identify vulnerabilities, insecure configur
 - **Risk Level:** Low Risk  
 - **Grade:** A  
 
-📄 Reports:
-- [Complete Static Analysis](complete static analysis.pdf) :contentReference[oaicite:0]{index=0}  
-- [Security Scorecard](MobSF Security Scorecard.pdf) :contentReference[oaicite:1]{index=1}  
-- [Full MobSF Report](sanchar-saathi-mobsf-report.pdf) :contentReference[oaicite:2]{index=2}  
+
+## 📄 Reports
+
+📑 **Detailed Analysis Files**
+
+- 🔍 [Complete Static Analysis Report](complete static analysis.pdf)  
+- 📊 [MobSF Security Scorecard](MobSF Security Scorecard.pdf)  
+- 📋 [Full Technical Report](sanchar-saathi-mobsf-report.pdf)  
 
 👉 The application falls under **low-risk category**, but multiple medium-level issues were identified that could impact security and privacy.
 
