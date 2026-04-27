@@ -41,7 +41,7 @@ Each phase builds on the previous stage to provide a complete understanding of t
 
 # 🔍 1️⃣ Static Analysis (MobSF)
 
-📄 👉 [Open Static Analysis](./2026/Sanchar%20Saathi%20Application/Reports/Static%20Analysis/README.md)
+📄 👉 [Open Static Analysis](./Reports/Static%20Analysis/README.md)
 
 Static analysis was performed using MobSF to analyze the APK without executing it.
 
@@ -67,7 +67,7 @@ This phase provided a high-level understanding of the application structure and 
 
 # 🧬 2️⃣ Decompiled Code Analysis
 
-📄 👉 [Open Decompiled Section](./2026/Sanchar%20Saathi%20Application/Tools/Decompiled/README.md)
+📄 👉 [Open Decompiled Section](./Tools/Decompiled/README.md)
 
 The APK was decompiled using APKTool and analyzed alongside JADX.
 
@@ -75,7 +75,7 @@ The APK was decompiled using APKTool and analyzed alongside JADX.
 
 * `AndroidManifest.xml`
 * `apktool.yml`
-* [`decompiled.zip`](./2026/Sanchar%20Saathi%20Application/Tools/Decompiled/decompiled.zip)
+* [`decompiled.zip`](./Tools/Decompiled/decompiled.zip)
 
 ---
 
@@ -162,7 +162,7 @@ The APK was decompiled using APKTool and analyzed alongside JADX.
 
 # ⚙️ 3️⃣ Runtime (Dynamic) Analysis
 
-📄 👉 [Open Dynamic Analysis](./2026/Sanchar%20Saathi%20Application/Reports/Dynamic%20Analysis/README.md)
+📄 👉 [Open Dynamic Analysis](./Reports/Dynamic%20Analysis/README.md)
 
 Runtime behavior was analyzed using logs and system tools under different conditions.
 
@@ -170,7 +170,7 @@ Runtime behavior was analyzed using logs and system tools under different condit
 
 ## 🟢 Normal Launch
 
-📄 👉 [View Log](./2026/Sanchar%20Saathi%20Application/Reports/Dynamic%20Analysis/test1_normal_launch.txt)
+📄 👉 [View Log](./Reports/Dynamic%20Analysis/test1_normal_launch.txt)
 
 * App initializes successfully
 * `_connectionStatus = true`
@@ -183,7 +183,7 @@ Runtime behavior was analyzed using logs and system tools under different condit
 
 ## 🔴 Network-Off Scenario
 
-📄 👉 [View Log](./2026/Sanchar%20Saathi%20Application/Reports/Dynamic%20Analysis/test2_network_off.txt)
+📄 👉 [View Log](./Reports/Dynamic%20Analysis/test2_network_off.txt)
 
 * DNS failures observed
 * Requests fail with status **101**
@@ -196,7 +196,7 @@ Runtime behavior was analyzed using logs and system tools under different condit
 
 ## 🟡 Permission Denied Scenario
 
-📄 👉 [View Log](./2026/Sanchar%20Saathi%20Application/Reports/Dynamic%20Analysis/test3_permission_denied.txt)
+📄 👉 [View Log](./Reports/Dynamic%20Analysis/test3_permission_denied.txt)
 
 * Permissions initially denied
 * User grants permissions
@@ -208,7 +208,7 @@ Runtime behavior was analyzed using logs and system tools under different condit
 
 # 🌐 4️⃣ Network Analysis
 
-📄 👉 [Open Network Analysis](./2026/Sanchar%20Saathi%20Application/Reports/Network%20Analysis/README.md)
+📄 👉 [Open Network Analysis](./Reports/Network%20Analysis/README.md)
 
 Network behavior was analyzed using runtime logs and Burp Suite.
 
@@ -255,7 +255,7 @@ https://ssapp.sancharsaathi.gov.in/clins/online/v1.1.0/knowYourConnection
 
 # 🧪 5️⃣ Forensic Analysis
 
-📄 👉 [Open Forensic Analysis](./2026/Sanchar%20Saathi%20Application/Reports/Forensic%20Analysis/README.md)
+📄 👉 [Open Forensic Analysis](./Reports/Forensic%20Analysis/README.md)
 
 Forensic analysis was performed under non-rooted conditions.
 
@@ -304,7 +304,7 @@ Forensic analysis was performed under non-rooted conditions.
 
 # 📦 Split APK Analysis
 
-📄 👉 [Open Split APK Section](./2026/Sanchar%20Saathi%20Application/Tools/Split%20APK%20Files/README.md)
+📄 👉 [Open Split APK Section](./Tools/Split%20APK%20Files/README.md)
 
 Files include:
 
@@ -323,7 +323,7 @@ Files include:
 
 # ⚙️ Tools Used
 
-📄 👉 [Open Tools Section](./2026/Sanchar%20Saathi%20Application/Tools/README.md)
+📄 👉 [Open Tools Section](./Tools/README.md)
 
 Workflow:
 
