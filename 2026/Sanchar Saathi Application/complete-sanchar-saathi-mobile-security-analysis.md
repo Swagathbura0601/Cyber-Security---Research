@@ -41,8 +41,6 @@ Each phase builds on the previous stage to provide a complete understanding of t
 
 # 🔍 1️⃣ Static Analysis (MobSF)
 
-📄 👉 [Open Static Analysis](./Reports/Static%20Analysis/README.md)
-
 Static analysis was performed using MobSF to analyze the APK without executing it.
 
 ### Key Areas Covered:
