@@ -79,5 +79,4 @@ Most of the critical behavior of the application (background sync, data handling
 
 ---
 
-![Decompiled Folder](../images/decompiled_folder.png)
-
+👉 [View File](decompiled.zip)
