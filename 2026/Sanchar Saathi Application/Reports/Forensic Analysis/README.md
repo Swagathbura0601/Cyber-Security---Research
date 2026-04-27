@@ -98,6 +98,8 @@ Only limited information was available, such as:
 
 No strong forensic artefacts were recovered.
 
+👉 [View Reports](Forensic_Analysis.zip)
+
 ---
 
 ## 🧠 Final Understanding
