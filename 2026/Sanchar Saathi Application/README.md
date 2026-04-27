@@ -1,4 +1,7 @@
 # Analysis of Sanchar Saathi Mobile Application
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Behavioral and Forensic Analysis of  Sanchar Saathi Mobile Application
 # Privacy vs Evidence: Behavioral and Digital Forensic Analysis of the Sanchar Saathi Mobile Application
 
