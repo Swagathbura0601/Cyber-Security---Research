@@ -36,11 +36,11 @@ The main objective of this project is to:
 
 ## 🧠 Key Highlights
 
-* Hybrid architecture (Flutter + Native Android)
-* Secure communication using HTTPS and SSL pinning
-* Background data synchronization mechanisms
-* Controlled data collection and storage
-* Limited forensic visibility in non-rooted environments
+* Hybrid architecture (Flutter + Native Android).
+* Secure communication using HTTPS and SSL pinning.
+* Background data synchronization mechanisms.
+* Controlled data collection and storage.
+* Limited forensic visibility in non-rooted environments.
 
 ---
 
