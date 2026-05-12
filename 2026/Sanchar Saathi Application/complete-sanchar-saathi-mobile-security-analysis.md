@@ -33,13 +33,13 @@ The objective of this project is to understand how the application operates inte
 
 The analysis follows a structured pipeline:
 
-APK → Static Analysis → Decompilation → Code Analysis → Runtime Analysis → Network Analysis → Forensic Analysis
+APK → Static Analysis → Decompilation → Code Analysis → Runtime Analysis → Network Analysis → Forensic Analysis.
 
 Each phase builds on the previous stage to provide a complete understanding of the application.
 
 ---
 
-# 🔍 1️⃣ Static Analysis (MobSF)
+# 🔍 1️⃣ Static Analysis
 
 Static analysis was performed using MobSF to analyze the APK without executing it.
 
@@ -158,7 +158,7 @@ The APK was decompiled using APKTool and analyzed alongside JADX.
 
 ---
 
-# ⚙️ 3️⃣ Runtime (Dynamic) Analysis
+# ⚙️ 3️⃣ Dynamic Analysis
 
 📄 👉 [Open Dynamic Analysis](./Reports/Dynamic%20Analysis/README.md)
 
