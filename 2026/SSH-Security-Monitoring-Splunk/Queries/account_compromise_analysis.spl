@@ -1,0 +1,11 @@
+index=ssh_logs
+("Failed password" OR "Accepted password" OR "Accepted publickey")
+| rex "(?:Failed password|Accepted password|Accepted publickey) for user (?<username>\w+)"
+| rex "from (?<source_ip>\d+\.\d+\.\d+\.\d+)"
+| eval action=case(
+searchmatch("Failed password"),"Failed",
+searchmatch("Accepted password"),"Accepted",
+searchmatch("Accepted publickey"),"Accepted"
+)
+| stats values(action) as actions count by source_ip username
+| where mvcount(actions)>1
