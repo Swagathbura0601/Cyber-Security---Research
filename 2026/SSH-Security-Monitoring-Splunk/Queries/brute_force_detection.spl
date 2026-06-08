@@ -1,0 +1,5 @@
+index=ssh_logs "Failed password"
+| rex "from (?<source_ip>\d+\.\d+\.\d+\.\d+)"
+| stats count as failed_attempts by source_ip
+| where failed_attempts >= 3
+| sort - failed_attempts
