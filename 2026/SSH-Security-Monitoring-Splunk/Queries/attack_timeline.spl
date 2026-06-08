@@ -1,0 +1,3 @@
+index=ssh_logs "Failed password"
+| rex "from (?<source_ip>\d+\.\d+\.\d+\.\d+)"
+| timechart count by source_ip
