@@ -1,0 +1,3 @@
+index=ssh_logs "Failed password for user root"
+| rex "from (?<source_ip>\d+\.\d+\.\d+\.\d+)"
+| stats count as root_attempts by source_ip
