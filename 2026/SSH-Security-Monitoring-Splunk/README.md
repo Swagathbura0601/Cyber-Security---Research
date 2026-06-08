@@ -425,3 +425,7 @@ The project provided hands-on experience in log management, threat detection, da
 **Author:** Swagath Bura   
 **Project:** SSH Security Monitoring Dashboard using Splunk  
 **Year:** 2026
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
